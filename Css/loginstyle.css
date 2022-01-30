@@ -1,0 +1,97 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-image: url('https://www.nycgo.com/images/venues/61021/hortus_nyc-manhattan-nyc-courtesy__large.jpg'); 
+    font-family: 'Arial';  
+    background-size: cover;
+}  
+h2{
+    font-size: 48px;
+    color: white;
+}
+
+.login{  
+    width: 382px;  
+    height: 400px;
+    overflow: hidden;  
+    margin-left: 30%;
+    margin-top: 3%;
+    padding: 80px;  
+    background-color: rgba(124, 16, 16, 0.315);
+    border-radius: 15px ;  
+    box-shadow:  rgb(255, 255, 255);
+   animation-name: iram;
+   animation-duration: 2s;
+}  
+
+@keyframes iram{
+    from{
+          width: 300px;
+          opacity: 20%;
+    }
+    to{
+        width: 382px;
+          opacity: 100%;
+    }
+}
+
+h2{  
+text-align: center;  
+color: #ffffff;  
+padding: 20px;  
+transition: 2s;
+}  
+label{  
+color: #ffffff;  
+font-size: 17px;  
+}  
+#Uname{  
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 3px;  
+padding-left: 8px;  
+}  
+#Pass{  
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 3px;  
+padding-left: 8px;  
+  
+}  
+.log{  
+width: 100px;  
+height: 30px;  
+border: #05f5d1  ;  
+border-radius: 17px;  
+padding-left: 7px;  
+background-color: wheat;
+background: white;
+}
+.log:hover{
+    background-color: rgb(49, 209, 49);
+    transition: 0.4s;
+    color: rgb(255, 255, 255);
+}
+
+
+ 
+span{  
+color: white;  
+font-size: 17px;  
+}  
+a{  
+float: right;  
+background-color: grey;  
+}  
+
+#register{
+    color: white;
+}
+
+#regi{
+    color: white;
+    text-decoration: none;
+}
