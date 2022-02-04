@@ -41,6 +41,7 @@ nav a{
     border: 1px solid transparent;
     padding: 7px 10px;
     border-radius: 3px;
+    
 }
 
 a.home,a:hover{
@@ -51,4 +52,20 @@ section{
     background: url(https://www.rmpos.com/wp-content/uploads/2015/05/restaurant-background.jpg) no-repeat;
     background-size: cover;
     height: calc(100vh - 90px);
+}
+
+@media only screen and (max-width: 360px) 
+{
+     .logo{
+          line-height: 80px;
+          font-size: 22px;
+          padding-left: 10px;
+     }
+     nav a{
+         font-size: 10px;
+     }
+     nav ul{
+         float: left;
+         
+     }
 }
